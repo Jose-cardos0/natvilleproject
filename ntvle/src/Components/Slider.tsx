@@ -14,7 +14,7 @@ import { Autoplay, Navigation, Pagination, Scrollbar } from "swiper/modules";
 
 export function Slider() {
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full px-8">
       <Swiper
         modules={[Pagination, Navigation, Scrollbar, Autoplay]}
         spaceBetween={30}

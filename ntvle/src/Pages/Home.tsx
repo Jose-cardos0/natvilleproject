@@ -1,5 +1,4 @@
 //logo
-import backgroundheader from "../assets/backgroundheader.svg";
 
 //slider
 import { Slider } from "../Components/Slider";
@@ -11,15 +10,19 @@ export function Home() {
   return (
     <main>
       <header
-        style={{
-          backgroundImage: `url(${backgroundheader})`,
-        }}
-        className=" bg-center bg-cover min-h-screen min-w-full flex items-center justify-center"
+        className="bg-center bg-cover min-h-screen min-w-full
+       flex items-center justify-center bg-[#56bac8]"
       >
         <Slider />
       </header>
-      <section className="min-w-full min-h-screen bg-[#f7f6f4]">
-        <h1 className="text-red-600">Home</h1>
+      <section
+        className="h-3/6 
+      bg-[#56bac8] flex items-center justify-center "
+      >
+        <h1 className="text-white font-bold text-6xl">
+          CONHEÇA <br /> NOSSO CARRO <br />
+          CHEFE
+        </h1>
         <Cheese3D />
       </section>
     </main>
