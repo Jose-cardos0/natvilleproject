@@ -1,7 +1,8 @@
 //logos
 import logoHeader from "../assets/logoHeader.svg";
 import leitesPropaganda from "../assets/leitesPropaganda.svg";
-import conhecaOsProdutos from "../assets/conhecaOsProdutos.svg";
+// import conhecaOsProdutos from "../assets/conhecaOsProdutos.svg";
+import queijosCremosos from "../assets/queijosCremosos.svg";
 
 //swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -33,7 +34,7 @@ export function Slider() {
           <img src={leitesPropaganda} alt="Imagem 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={conhecaOsProdutos} alt="Imagem 3" />
+          <img src={queijosCremosos} alt="Imagem 3" />
         </SwiperSlide>
       </Swiper>
     </div>
